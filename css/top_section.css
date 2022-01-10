@@ -2,6 +2,7 @@
 	position: relative;
 	background-image: url(../media/header.jpg);
 	height: 100vh;
+	min-height:80rem;
 	background-repeat: no-repeat;
 	color: white;
 }

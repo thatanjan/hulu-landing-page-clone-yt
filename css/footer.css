@@ -1,7 +1,7 @@
 .footer {
-	background-position: #f5f6f7;
+	background-color: #f5f6f7;
 	padding: 0 4rem;
-	text-decoration: capitalize;
+	text-transform: capitalize;
 }
 
 .footer__section {

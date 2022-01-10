@@ -11,7 +11,6 @@ modalOverlayEl.addEventListener('click', toggleModal)
 modalCloseEl.addEventListener('click', toggleModal)
 loginLinkEl.addEventListener('click', toggleModal)
 
-
 const footerTitleEl = document.querySelectorAll('.footer__section__title')
 
 const toggleExpandSection = element => () =>
@@ -20,4 +19,3 @@ const toggleExpandSection = element => () =>
 footerTitleEl.forEach(el => {
 	el.addEventListener('click', toggleExpandSection(el.parentElement))
 })
-
